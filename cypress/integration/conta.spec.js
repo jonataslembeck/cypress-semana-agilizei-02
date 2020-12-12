@@ -36,6 +36,7 @@ context('Compra', () => {
         cy.get('button[name=processAddress]').click()
         cy.get('[type=checkbox]#cgv').check()
         cy.get('button[name=processCarrier]').click()
+        
 
         // Seleciona forma de pagamento
         cy.get('.bankwire').click()
